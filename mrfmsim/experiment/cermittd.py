@@ -46,7 +46,9 @@ CermitTDSmallTip_edges = [
 experiment_recipes = {
     "CermitTD": {
         "grouped_edges": CermitTD_edges,
-        "doc": "Time-dependent CERMIT experiment for a large tip.",
+        "doc": "Time-dependent CERMIT experiment for a large tip. "
+               "'dt_pulse': [s] gap between pulses,"
+               "'pulse_time': [s] duration of a single pulse.",
     },
     "CermitTDSmallTip": {
         "grouped_edges": CermitTDSmallTip_edges,
