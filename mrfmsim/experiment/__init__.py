@@ -3,3 +3,4 @@ from .ibmcyclic import IBMCyclic
 from .cermittd import CermitTDGroup
 from .cermitarp import CermitARPGroup
 from .cermitsinglespin import CermitSingleSpinGroup
+from .cermittdforce import CermitTDGroup_force
